@@ -1,0 +1,28 @@
+.titulo{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+.contenido{
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+#section{padding-top:200;padding-bottom:200;}
+#section1{padding-top:200;padding-bottom:200;}
+#section2{padding-top:200;padding-bottom:200;}
+#section3{padding-top:200;padding-bottom:200;}
+#titulo{font-size: 50}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
